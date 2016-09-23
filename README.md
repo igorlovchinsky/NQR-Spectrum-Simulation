@@ -22,15 +22,17 @@ In order to run the code, follow these steps:
 		tau_max: maximum pi-pulse spacing [s]
 		numpoints: number of time points in the spectrum
 
-	The function 'initializeParameters' reads these values into a Python dictionary. 
+		The function 'initializeParameters' reads these values into a Python dictionary. 
 
 	2). You also need to make sure the necessary constants are included in the file 'constants.txt'. The required constants are:
 
 		hbar: reduced Planck?s constant [m^2 kg s^-1]
 		mu_B: Bohr magneton [J T^-1]
 		u_0: permeability of free space [T m A^-1]
+		
+		The function 'initializeConstants' reads these values into a Python dictionary. 
 
-	3). Open the ipython notebook SimulateSpectrum.ipynb. Scroll to the bottom, past the class and function definitions. 
+	3). Open the ipython notebook 'SimulateSpectrum.ipynb'. Scroll to the bottom, past the class and function definitions. 
 		Modify the block of code denoted by 'MODIFY THIS BLOCK' by creating a custom Hamiltonian object.
 
 	4). Run the notebook to generate spectrum. The final block of code plots some example spectra.
