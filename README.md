@@ -2,7 +2,8 @@ This script was used to simulate nuclear quadrupole resonance (NQR) spectra usin
 
 In order to run the code, follow these steps:
 
-	1). Update the file 'parameters.txt' with the desired spectrum parameters. The required parameters are:
+	1). Update the file 'parameters.txt' with the desired spectrum parameters. 
+		The required parameters are:
 
 		spin_e: the quantum number of the electronic spin
 		spin_n: the quantum number of the nuclear spin
@@ -24,7 +25,8 @@ In order to run the code, follow these steps:
 
 		The function 'initializeParameters' reads these values into a Python dictionary. 
 
-	2). You also need to make sure the necessary constants are included in the file 'constants.txt'. The required constants are:
+	2). You also need to make sure the necessary constants are included in the file 'constants.txt'. 
+		The required constants are:
 
 		hbar: reduced Planck?s constant [m^2 kg s^-1]
 		mu_B: Bohr magneton [J T^-1]
@@ -32,8 +34,9 @@ In order to run the code, follow these steps:
 		
 		The function 'initializeConstants' reads these values into a Python dictionary. 
 
-	3). Open the ipython notebook 'SimulateSpectrum.ipynb'. Scroll to the bottom, past the class and function definitions. 
-		Modify the block of code denoted by 'MODIFY THIS BLOCK' by creating a custom Hamiltonian object.
+	3). Open the ipython notebook 'SimulateSpectrum.ipynb'. Scroll to the bottom, past the class 
+		and function definitions. Modify the block of code denoted by 'MODIFY THIS BLOCK' by 
+		creating a custom Hamiltonian object.
 
 	4). Run the notebook to generate spectrum. The final block of code plots some example spectra.
 
